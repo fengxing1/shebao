@@ -7,7 +7,25 @@
 		<key>shebao.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>30</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2219B0571FAD6A87006298C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2219B06F1FAD6A87006298C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2219B07A1FAD6A87006298C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
