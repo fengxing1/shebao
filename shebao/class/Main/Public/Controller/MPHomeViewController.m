@@ -17,16 +17,16 @@
     if (self) {
         [self setupTabBarController];
         
-        self.tabBar.selectedImageTintColor =RGB(182, 65, 65);
+        self.tabBar.tintColor =RGB(182, 65, 65);
         
         //显示未读
-        UINavigationController  *discoverNav =(UINavigationController *)self.viewControllers[1];
-        UITabBarItem *curTabBarItem=discoverNav.tabBarItem;
-        [curTabBarItem setBadgeValue:@"2"];
+//        UINavigationController  *discoverNav =(UINavigationController *)self.viewControllers[1];
+//        UITabBarItem *curTabBarItem=discoverNav.tabBarItem;
+//        [curTabBarItem setBadgeValue:@"2"];
     }
     return self;
 }
-
+//
 
 - (void)setupTabBarController {
     /// 设置TabBar属性数组

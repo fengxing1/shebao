@@ -14,6 +14,8 @@
 		2219B0801FAD6A87006298C9 /* shebaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2219B07F1FAD6A87006298C9 /* shebaoUITests.m */; };
 		223A20701FB9E98400509892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223A206E1FB9E98300509892 /* LaunchScreen.storyboard */; };
 		223A20711FB9E98500509892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223A206F1FB9E98400509892 /* Main.storyboard */; };
+		2253DFFB1FC30FC2006A167F /* SBHomeCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2253DFFA1FC30FC2006A167F /* SBHomeCollectionModel.m */; };
+		2253DFFE1FC318F8006A167F /* SBCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2253DFFD1FC318F8006A167F /* SBCollectionView.m */; };
 		229F2B631FB1FDF1004234F0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 229F2B621FB1FDF1004234F0 /* libz.tbd */; };
 		229F2B651FB1FDF8004234F0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229F2B641FB1FDF8004234F0 /* CoreData.framework */; };
 		229F2B671FB1FE01004234F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229F2B661FB1FE01004234F0 /* CoreLocation.framework */; };
@@ -319,10 +321,8 @@
 		229F309C1FB1FEA7004234F0 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 229F2E341FB1FEA6004234F0 /* Placeholder */; };
 		229F309D1FB1FEA7004234F0 /* CreditShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229F2E381FB1FEA6004234F0 /* CreditShowViewController.m */; };
 		229F309E1FB1FEA7004234F0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229F2E3C1FB1FEA6004234F0 /* HomeViewController.m */; };
-		229F309F1FB1FEA7004234F0 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 229F2E3E1FB1FEA6004234F0 /* Placeholder */; };
 		229F30A01FB1FEA7004234F0 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 229F2E401FB1FEA6004234F0 /* Placeholder */; };
 		229F30A11FB1FEA7004234F0 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 229F2E421FB1FEA6004234F0 /* Placeholder */; };
-		229F30A21FB1FEA7004234F0 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 229F2E441FB1FEA6004234F0 /* Placeholder */; };
 		229F30A31FB1FEA7004234F0 /* LoggerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229F2E481FB1FEA6004234F0 /* LoggerDetailViewController.m */; };
 		229F30A51FB1FEA8004234F0 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 229F2E4C1FB1FEA6004234F0 /* Placeholder */; };
 		229F30A61FB1FEA8004234F0 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 229F2E4E1FB1FEA6004234F0 /* Placeholder */; };
@@ -484,6 +484,10 @@
 		2235B7C95B8EEC99F15E88B9 /* Pods-shebaoDefault-shebao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shebaoDefault-shebao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shebaoDefault-shebao/Pods-shebaoDefault-shebao.debug.xcconfig"; sourceTree = "<group>"; };
 		223A206E1FB9E98300509892 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		223A206F1FB9E98400509892 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2253DFF91FC30FC2006A167F /* SBHomeCollectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBHomeCollectionModel.h; sourceTree = "<group>"; };
+		2253DFFA1FC30FC2006A167F /* SBHomeCollectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBHomeCollectionModel.m; sourceTree = "<group>"; };
+		2253DFFC1FC318F8006A167F /* SBCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBCollectionView.h; sourceTree = "<group>"; };
+		2253DFFD1FC318F8006A167F /* SBCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBCollectionView.m; sourceTree = "<group>"; };
 		229F2B621FB1FDF1004234F0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		229F2B641FB1FDF8004234F0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		229F2B661FB1FE01004234F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -1083,10 +1087,8 @@
 		229F2E381FB1FEA6004234F0 /* CreditShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditShowViewController.m; sourceTree = "<group>"; };
 		229F2E3B1FB1FEA6004234F0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		229F2E3C1FB1FEA6004234F0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		229F2E3E1FB1FEA6004234F0 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
 		229F2E401FB1FEA6004234F0 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
 		229F2E421FB1FEA6004234F0 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
-		229F2E441FB1FEA6004234F0 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
 		229F2E471FB1FEA6004234F0 /* LoggerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerDetailViewController.h; sourceTree = "<group>"; };
 		229F2E481FB1FEA6004234F0 /* LoggerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerDetailViewController.m; sourceTree = "<group>"; };
 		229F2E4C1FB1FEA6004234F0 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
@@ -2938,7 +2940,8 @@
 		229F2E3D1FB1FEA6004234F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				229F2E3E1FB1FEA6004234F0 /* Placeholder */,
+				2253DFF91FC30FC2006A167F /* SBHomeCollectionModel.h */,
+				2253DFFA1FC30FC2006A167F /* SBHomeCollectionModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -2962,7 +2965,8 @@
 		229F2E431FB1FEA6004234F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				229F2E441FB1FEA6004234F0 /* Placeholder */,
+				2253DFFC1FC318F8006A167F /* SBCollectionView.h */,
+				2253DFFD1FC318F8006A167F /* SBCollectionView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -3761,11 +3765,9 @@
 				229F30F91FB1FEA8004234F0 /* Placeholder in Resources */,
 				229F30811FB1FEA7004234F0 /* blankpage_image_Sleep@3x.png in Resources */,
 				229F307E1FB1FEA7004234F0 /* blankpage_image_loadFail@2x.png in Resources */,
-				229F309F1FB1FEA7004234F0 /* Placeholder in Resources */,
 				229F2B831FB1FE96004234F0 /* demo.js in Resources */,
 				229F30A61FB1FEA8004234F0 /* Placeholder in Resources */,
 				229F30AE1FB1FEA8004234F0 /* Placeholder in Resources */,
-				229F30A21FB1FEA7004234F0 /* Placeholder in Resources */,
 				229F2B851FB1FE96004234F0 /* test.html in Resources */,
 				2219B0651FAD6A87006298C9 /* Assets.xcassets in Resources */,
 				229F2B821FB1FE96004234F0 /* MobileProject_Local-Info.plist in Resources */,
@@ -4071,6 +4073,7 @@
 				229F303E1FB1FEA7004234F0 /* UITextField+History.m in Sources */,
 				229F30561FB1FEA7004234F0 /* UIViewController+BackButtonItemTitle.m in Sources */,
 				229F30EF1FB1FEA8004234F0 /* MPMultithreadViewController.m in Sources */,
+				2253DFFB1FC30FC2006A167F /* SBHomeCollectionModel.m in Sources */,
 				229F30961FB1FEA7004234F0 /* UITapImageView.m in Sources */,
 				229F30841FB1FEA7004234F0 /* FCUUID.m in Sources */,
 				229F2FD91FB1FEA7004234F0 /* UIView+RoundedCorner.m in Sources */,
@@ -4172,6 +4175,7 @@
 				229F305D1FB1FEA7004234F0 /* UIViewController+Visible.m in Sources */,
 				229F2FF51FB1FEA7004234F0 /* UIButton+CountDown.m in Sources */,
 				229F2FE21FB1FEA7004234F0 /* CAAnimation+Blocks.m in Sources */,
+				2253DFFE1FC318F8006A167F /* SBCollectionView.m in Sources */,
 				229F30FD1FB1FEA8004234F0 /* MPArrayDataSource.m in Sources */,
 				229F30B31FB1FEA8004234F0 /* MPCalendarViewController.m in Sources */,
 				229F30991FB1FEA7004234F0 /* BaseViewController.m in Sources */,
